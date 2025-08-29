@@ -1,0 +1,4 @@
+﻿Class,Match,Marking,Queueing,Rationale
+VoIP Phones,Match SIP/RTP,DSCP 46 (EF),High priority queue,"Low jitter, low latency"
+Video (cams),Match camera subnets,DSCP 34 (AF41),Medium priority,Prevents starving voice
+Best Effort,Default,DSCP 0,Normal,Data traffic

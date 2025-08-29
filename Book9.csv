@@ -1,0 +1,3 @@
+Type,Subnet/Peers,Auth,Routing,Notes
+Client VPN,VLAN 5 (192.168.5.0/24),Meraki Cloud Auth / RADIUS,Split?tunnel,2FA recommended
+Site?to?Site Auto?VPN,Branch networks,Auto key/mesh,Restrict VLANs to advertise,Use perf classes for VoIP

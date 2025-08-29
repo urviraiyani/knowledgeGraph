@@ -1,0 +1,6 @@
+Asset,Metric,Value,Unit,Notes
+MX67,WAN1 usage,85,Mbps,Peak hour snapshot
+MX67,WAN latency,18,ms,Measured to Meraki cloud
+MR20 (fleet),Client count,28,devices,Across all APs; VLAN 1
+VLAN 4,Throughput,25,Mbps,Guest network cap working
+MS120-48LP,PoE power,120,W,Budget headroom sufficient

@@ -1,0 +1,5 @@
+﻿Category,Count/Details,Notes
+Employees,~10 staff,"Each has a laptop, desk phone, and smartphone"
+Guests (concurrent),~3 users,Visitors on Guest Wi‑Fi (VLAN 4) with client isolation
+Total concurrent devices,~41,30 employee devices + 6 guest + 2 servers + 2 cameras + 1 printer
+Employees – device mix,10 laptops; 10 desk phones; 10 smartphones,Typical per‑user footprint for a small office

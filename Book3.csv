@@ -1,0 +1,6 @@
+﻿VLAN,Purpose,Subnet,Gateway,DHCP Pool,Lease,DNS,Notes
+VLAN 1,Internal Data,192.168.1.0/24,192.168.1.1,192.168.1.100‑192.168.1.250,1h,"8.8.8.8, 1.1.1.1","Laptops, printers, cameras"
+VLAN 2,Voice (VoIP),192.168.2.0/24,192.168.2.1,192.168.2.50‑192.168.2.200,2h,DHCP Option 150 (CallMgr),Desk phones only; QoS high priority
+VLAN 3,Server,192.168.3.0/24,192.168.3.1,192.168.3.50‑192.168.3.120,8h,Internal DNS (AD),Web & storage servers; restricted
+VLAN 4,Guest,192.168.4.0/24,192.168.4.1,192.168.4.50‑192.168.4.250,1h,Public DNS,Internet‑only; client isolation
+VLAN 5,Client VPN,192.168.5.0/24,192.168.5.1,192.168.5.50‑192.168.5.200,4h,Internal DNS,Remote user pool

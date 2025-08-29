@@ -1,0 +1,3 @@
+﻿SSID,Security,Tagged VLAN,Bandwidth Policy,Access Controls,Switch/AP Notes
+Corp‑WiFi,WPA2‑Enterprise (RADIUS),VLAN 1,No cap,LAN access per policy,AP ports as trunk; native VLAN 1
+Guest‑WiFi,WPA2‑PSK,VLAN 4,30 Mbps network cap,No LAN access; internet only,Client isolation + L3 deny to RFC1918

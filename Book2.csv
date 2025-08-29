@@ -1,0 +1,7 @@
+﻿Role,Model,Function,Throughput/Type,WAN/RF,Security/Features,Placement/Notes
+Security Gateway,MX67,Firewall/Router/VPN,1 Gbps FW; ~450 Mbps VPN,Dual‑WAN (active/passive),"Yes (IDS/IPS, AMP)",Small Office/Branch
+Switch,MS120-48LP,48‑port PoE,Non‑L3 (access),PoE Budget ~370 W,48x 1G + 4x SFP,Phones/APs/Cameras power
+Wireless AP,MR20 x4,Indoor 2x2,Up to AC Wave 2,Dual‑band,Per‑SSID VLAN tagging,Coverage for office zones
+Cameras,MV12N x2,Indoor dome,1080p,Typical 1–4 Mbps/stream,Cloud‑managed,"Lobby, corridor"
+Servers,Web + Storage,On‑prem,x86/VM,Dual NIC optional,Local backups,On VLAN 3
+Printer,Network printer,Office,Ethernet/Wi‑Fi,AirPrint,Secure print,On VLAN 1

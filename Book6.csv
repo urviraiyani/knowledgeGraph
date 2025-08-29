@@ -1,0 +1,4 @@
+﻿Policy,Addressing,Traffic Class,Behavior,Notes
+WAN1 Primary,Static IP,Business/Work apps,Prefer WAN1,Failover to WAN2 on loss/latency
+WAN2 Secondary,DHCP,Guest SSID traffic,Prefer WAN2,Keeps corp bandwidth on WAN1
+Performance Class,Latency < 100 ms; Loss < 1%,VoIP on VLAN 2,Uplink selection,Auto‑VPN dynamic path

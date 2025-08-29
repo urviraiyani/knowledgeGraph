@@ -1,0 +1,6 @@
+﻿Rule Type,Src/Dst,Ports/Apps,Action,Notes
+OUTBOUND,VLAN 1 → VLAN 3,"TCP 445, 80/443",ALLOW,User access to file share & web on servers
+OUTBOUND,Any → Any,Known malware categories,DENY,Content filtering categories blocked
+LATERAL,VLAN 3 → VLAN 1,Any,DENY,Servers cannot initiate to user VLAN (reduce lateral movement)
+ISOLATION,VLAN 4 (Guest) → Any RFC1918,Any,DENY,Guest isolation from internal networks
+INBOUND (NAT),Internet → WebSrv (VLAN 3),80/443,PORT‑FORWARD,Public web access to on‑prem web server
