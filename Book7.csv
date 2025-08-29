@@ -1,6 +1,6 @@
-Profile,Mode,VLANs,Notes,QoS
+ï»¿Profile,Mode,VLANs,Notes,QoS
 Phones,Access,VLAN 2 (voice),Voice VLAN=2; PoE=On,DSCP 46 (EF)
 APs,Trunk,"Native VLAN 1; Allowed 1,4",Tagged guest traffic on VLAN 4,PoE=On; LLDP enabled
-Cameras,Access,VLAN 1,PoE=On; Isolated from guest,—
-Servers,Access,VLAN 3,Storm control; Port security,—
-Printers,Access,VLAN 1,MAC whitelisting optional,—
+Cameras,Access,VLAN 1,PoE=On; Isolated from guest,â€”
+Servers,Access,VLAN 3,Storm control; Port security,â€”
+Printers,Access,VLAN 1,MAC whitelisting optional,â€”
